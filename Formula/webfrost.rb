@@ -2,28 +2,28 @@
 class Webfrost < Formula
   desc "Self-hosted web archiver: saves pages as WARC, PDF, screenshot, text and more"
   homepage "https://webfrost.dev"
-  version "0.3.2"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gtkatakura/webfrost/releases/download/v0.3.2/webfrost-darwin-arm64.tar.gz"
-      sha256 "287eb36e32fcfeaf6faefdd228f009170f2fa5e24bfbc65d91c5501d8ae21356"
+      url "https://github.com/gtkatakura/webfrost/releases/download/v0.4.0/webfrost-darwin-arm64.tar.gz"
+      sha256 "181d571d0f7ee62ea49d1d911066fbd23d8f7be0af272d2fc1c6aee9c7bdd19c"
     end
     on_intel do
-      url "https://github.com/gtkatakura/webfrost/releases/download/v0.3.2/webfrost-darwin-x64.tar.gz"
-      sha256 "4af9748290b8871626ff15dfcadcc82bdfb295c39bc076e7675ad6e77a976d08"
+      url "https://github.com/gtkatakura/webfrost/releases/download/v0.4.0/webfrost-darwin-x64.tar.gz"
+      sha256 "31a481ba8e5c77da3411ffb071a8ef76c54f0dc32b724d1850258fdeeb0d0939"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gtkatakura/webfrost/releases/download/v0.3.2/webfrost-linux-arm64.tar.gz"
-      sha256 "894994c0741db61493241be34a38ed7a988a6b9b47b3579a1e07b51304d590ad"
+      url "https://github.com/gtkatakura/webfrost/releases/download/v0.4.0/webfrost-linux-arm64.tar.gz"
+      sha256 "640062b87e8d081c61be8504596138ac87836c28d8fcfa9583bad86549f1caf8"
     end
     on_intel do
-      url "https://github.com/gtkatakura/webfrost/releases/download/v0.3.2/webfrost-linux-x64.tar.gz"
-      sha256 "02c872433ac4d402625085ee87b46008f49dc4ebe50ad2cedf7ab56a9022288d"
+      url "https://github.com/gtkatakura/webfrost/releases/download/v0.4.0/webfrost-linux-x64.tar.gz"
+      sha256 "678fc368fae5c422949f025b0c4ea6c02b5e94adb8668bf76511cb361303157a"
     end
   end
 
